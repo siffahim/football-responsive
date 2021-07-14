@@ -160,8 +160,9 @@ nav .menu-items li a{
 .padding{
     width: 100%;
     margin-top: 50px;
-    padding:50px;
     box-shadow: 0 0 5px rgb(0,0,0,0.5);
+    padding: 20px;
+    box-sizing: border-box;
 }
 .separed-img-size img{
     width: 567px;
