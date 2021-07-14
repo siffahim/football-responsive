@@ -295,6 +295,11 @@ footer .icon a{
     }
     table{
         width: 90%;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    td img{
+        width:30px;
     }
     fieldset{
         padding: 10px;
@@ -348,6 +353,9 @@ footer .icon a{
     }
     table{
         width: 100%;
+    }
+    td img{
+        width:40px;
     }
     fieldset{
         padding: 30px;
