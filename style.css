@@ -296,6 +296,10 @@ footer .icon a{
     table{
         width: 90%;
     }
+    fieldset{
+        padding: 10px;
+        box-sizing: border-box;
+    }
 }
 
 
@@ -344,6 +348,10 @@ footer .icon a{
     }
     table{
         width: 100%;
+    }
+    fieldset{
+        padding: 30px;
+        box-sizing: border-box;
     }
 }
 
