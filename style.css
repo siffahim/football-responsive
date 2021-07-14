@@ -44,7 +44,7 @@ nav .menu-items li a{
 .menu-icon{
     list-style: none;
     color:white;
-    font-size: 25px;
+    font-size: 40px;
     display: none;
 }
 
@@ -251,3 +251,102 @@ footer .icon a{
     font-size: 20px;
     margin-top: 15px;
 }
+
+/*-------------------------------
+    mobile responsive dising
+--------------------------------*/
+
+@media only screen and (max-width:688px) {
+    *{
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        padding:30px;
+        box-sizing: border-box;
+    }
+    .top-wrapper{
+        width: 100%;
+        flex-direction: column;
+        box-shadow: none;
+    }
+    nav .menu-items{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .top-banner img{
+        width:90%;
+        margin-top: 50px;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .world-rank{
+        width: 100%;
+    }
+    .separed-img-size img{
+        width: 100%;
+        height: 250px;
+        margin: 0;
+        margin-top: 50px;
+    }
+    table{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+/*---------------------------
+    ipad responsive disng
+-----------------------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    *{
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        padding:30px;
+        box-sizing: border-box;
+    }
+    .top-wrapper{
+        width: 100%;
+        flex-direction: column;
+        box-shadow: none;
+    }
+    nav .menu-items{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .top-banner img{
+        width:90%;
+        margin-top: 50px;
+    }
+    .players{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .world-rank{
+        width: 100%;
+    }
+    .separed-img-size img{
+        width: 100%;
+        margin: 0;
+        margin-top: 50px;
+    }
+    table{
+        width: 100%;
+    }
+}
+
+
+
+
