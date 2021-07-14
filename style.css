@@ -182,3 +182,43 @@ input{
     height: 20px;
 }
 
+@media only screen and (max-width:688px){
+    *{
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        display: none;
+    }
+     .top-banner img{
+         margin-top: 50px;
+         width:90%;
+     }
+     .top-wrapper{
+         width: 85%;
+         flex-direction: column;
+         box-shadow: none;
+     }
+     .players{
+         grid-template-columns: repeat(1,1fr);
+     }
+     .separed-img-size img{
+         width: 90%;
+         height: 250px;
+     }
+     table{
+         width:80%;
+         font-size: 10px;
+         margin: 0 auto;
+     }
+     td img{
+        width:35px;
+    }
+    fieldset{
+        padding:10px;
+    }
+    input{
+        width:220px;
+    }
+
+ }
